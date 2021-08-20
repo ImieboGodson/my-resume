@@ -23,17 +23,11 @@
 
 
 #introText {
+  font-weight: 700;
+  text-transform: capitalize;
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
-  /* font-family: "Source Code Pro", monospace; */
-  position: relative;
   width: max-content;
-}
-
-#nameText {
-  /* font-size: 65px; */
-  /* font-weight: 700; */
-  text-transform: capitalize;
 }
 
 h1::before,
@@ -95,3 +89,31 @@ h1::after {
 }
 
 
+
+
+/* Mediaqueries */
+
+@media (max-width: 600px) {
+
+  #introText {
+    font-size: clamp(1rem, 2vw + 1rem, 4rem);
+  }
+
+  .resume-link-btn {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 200;
+  }
+}
+
+
+@media (max-width: 400px) {
+  #introText {
+    font-size: clamp(1rem, 1vw + 1rem, 4rem);
+  }
+
+  .resume-link-btn {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+}
