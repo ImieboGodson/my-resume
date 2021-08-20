@@ -24,7 +24,6 @@
 
 #introText {
   font-weight: 700;
-  text-transform: capitalize;
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   width: max-content;

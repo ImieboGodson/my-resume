@@ -1,3 +1,9 @@
+:root {
+    --bg-color: hsl(49 37% 94%);
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 28;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +12,7 @@
 
 body {
     font-family: sans-serif;
+    background: var(--bg-color);
 }
 
 /* Utilities */
@@ -14,6 +21,7 @@ body {
     max-width: 1200px;
     padding: 20px;
     display: flex;
+    background: var(--bg-color);
 }
 
 .main-content-wrapper {
