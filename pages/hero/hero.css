@@ -2,7 +2,8 @@
     --bg-color: hsl(49 37% 94%);
     --typewriterSpeed: 6s;
     --typewriterCharacters: 28;
- }
+}
+
 
 * {
     margin: 0;
@@ -274,7 +275,11 @@ p {
     }
 
     .header {
-        padding: 20px;
+        padding: 20px 0;
+    }
+
+    .header-wrapper {
+        padding: 0 18px;
     }
 
     .nav-links {
