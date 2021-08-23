@@ -1,0 +1,100 @@
+#about {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #33332d;
+}
+
+.about-picture-wrapper {
+    width: 100%;
+    height: 500px;
+}
+
+.about-picture-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-sections {
+    display: flex;
+}
+
+.section-left {
+    flex: 3;
+}
+
+.my-story {
+    margin-top: 100px;
+}
+
+.section-title-wrapper,
+.section-topic-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.section-number {
+    margin-right: 30px;
+    /* font-size: 16px; */
+}
+
+.section-title-wrapper p {
+    font-size: 12px;
+}
+
+.section-right {
+    flex: 6;
+}
+
+.section-topic {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-body-wrapper {
+    margin-top: 25px;
+}
+
+.section-body,
+.skill-item {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.tools-list-topic {
+    margin-top: 25px;
+}
+
+.tools-list-topic p {
+    font-size: 18px;
+}
+
+.skills-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+}
+
+/* .skill-item {
+    font-size: 17px;
+} */
+
+.work-process,
+.my-tools {
+    margin-top: 200px;
+}
+
+.contacts {
+    margin: 200px 0;
+}
+
+.email-wrapper {
+    margin-top: 80px;
+}

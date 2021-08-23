@@ -1,0 +1,10 @@
+#contact {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #33332d;
+}
