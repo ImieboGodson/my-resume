@@ -1,10 +1,11 @@
-const fullname = document.getElementById('nameText');
 const togglerOpen = document.querySelector('.fa-bars');
 const togglerClose = document.querySelector('.fa-times');
 const dropdownMenu = document.querySelector('.navlinks-wrapper');
 const dropdownLinks = document.querySelectorAll('.nav-link');
 
-// fullname.innerHTML = 'Godson Imiebo';
+// let fullname = document.getElementById('nameText').innerHTML = 'Godson Imiebo';
+
+
 
 
 const toggleFunction = () => {

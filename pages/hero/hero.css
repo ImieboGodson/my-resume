@@ -266,7 +266,8 @@ p {
 
 /* Mediaquieries */
 
-@media (max-width: 600px) {
+
+@media (max-width: 900px) {
 
     .container {
         margin: 0 auto;
@@ -281,6 +282,36 @@ p {
     .header-wrapper {
         padding: 0 18px;
     }
+
+    #hero {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .social-link {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    
+    .linkedin, .github {
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
 
     .navlinks-wrapper {
         position: absolute;

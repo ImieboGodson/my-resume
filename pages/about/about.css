@@ -105,6 +105,23 @@
     margin-top: 80px;
 }
 
+.company-links {
+    margin-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link-icon {
+    margin-right: 10px;
+    width: 35px;
+    border-radius: 2px;
+}
+
+img {
+    width: 100%;
+}
+
 
 @media (max-width: 600px) {
 
